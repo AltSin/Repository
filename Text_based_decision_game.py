@@ -136,9 +136,15 @@ class ComputerPlayer(Country):
                 super(ComputerPlayer, self).__init__(name)
 
         def pick_options(self,options):
-            #if peaceful personality -> work out which option is best for reducing doomsday, and pick that
+            #you need to rearrange tree to have options in correct scenarios e.g. [peaceful][warlike]
+            #if peaceful personality -> work out which option is best for reducing doomsday, and pick that          
             #if insanse -> randomly pick option
             #if warlike -> pick options to go to war...
+            
+            
+            #from random import *
+             int ran=randint(1,3);
+            
                 '''
                 
 p1 = Country("UNITED STATES")                
